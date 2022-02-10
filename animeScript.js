@@ -46,41 +46,7 @@ fetch("https://jikan1.p.rapidapi.com/genre/anime/1/1", {
         <a href="">Characters</a>
         </div>
     `
-//     let tempAnimeHTML = `
-//     <div class="col-4 text-success lead">
-// <div class="card" style="width: 18rem;">
-//     <img src="${anime.img_url}" class="card-img-top" alt="${anime.title}">
-// <div class="card-body">
-// <h5 class="card-title">${anime.title}</h5>
-// <p class="text-primary">${anime.synopsis}</p>
-// <a href="" class="btn btn-primary">Characters</a>
-// </div>
 
-// </div>
-//     `;
-    
-//     for (let i = 0; i < anime.length; i++) {
-//         let anime1 = "Shingeki no Kyojin";
-//         let anime2 = "";
-//         let anime3 = "";
-//         let anime4 = "";
-//         let anime5 = "";
-//         if (anime.title === anime1) {
-//             let tempAnimeHTML = `
-//             <div class="col-4 text-success lead">
-//         <div class="card" style="width: 18rem;">
-//             <img src="${anime.img_url}" class="card-img-top" alt="${anime.title}">
-//         <div class="card-body">
-//         <h5 class="card-title">${anime.title}</h5>
-//         <p class="text-primary">${anime.synopsis}</p>
-//         <a href="" class="btn btn-primary">Characters</a>
-//         </div>
-    
-//         </div>
-//             `
-//         }
-//     }
-        
          contactsDIV.innerHTML += tempAnimeHTML;
     })
 
