@@ -11,7 +11,19 @@ fetch("https://animi.p.rapidapi.com/name?name=Levi", {
 })
 .then(data => {
     const contactsDIV = document.getElementById('char_list');
-    console.log(data.url)
+    
+	let tempCharHTML = `
+	<div class="col-4 text-success lead">
+	  <div class="card border border-5 border-danger bg-warning" style="width: 18rem;">
+		<img src="${person.anime_img}" class="card-img-top">
+	  <div class="card-body">
+		<h5 class="card-title">${person.anime_name}</h5>
+	  </div>
+	
+	</div>
+	`
+
+	contactsDIV.innerHTML += tempCharHTML;
 })
 .catch(err => {
 	console.error(err);
