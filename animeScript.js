@@ -34,9 +34,9 @@ fetch("https://jikan1.p.rapidapi.com/genre/anime/1/1", {
         <a href="">Characters</a>
         </div>
         <div class="col-4 border border-5px">
-        <h1 class="text-danger">${anime[8].title}</h1><br>
-        <img src="https://cdn.myanimelist.net/images/anime/1337/99013.jpg"> <br>
-        <p class="lead">${anime[8].synopsis}</p><br>
+        <h1 class="text-danger">${anime[29].title}</h1><br>
+        <img src="https://cdn.myanimelist.net/images/anime/4/19644.jpg"> <br>
+        <p class="lead">${anime[29].synopsis}</p><br>
         <a href="">Characters</a>
         </div>
         <div class="col-4 border border-5px">
