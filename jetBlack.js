@@ -18,9 +18,12 @@ fetch("https://jikan1.p.rapidapi.com/character/3/pictures", {
 	  <div class="card border border-5 border-danger bg-warning" style="width: auto; height: auto">
 		<img src="${pics[2].image_url}" class="card-img-top">
 	  <div class="card-body">
-		<h5 class="card-title">Jet Black  <button id="button">VOTE:</button></h5>
+		<h5 class="card-title">Jet Black</h5>
 	  </div>
-	
+		<div>
+		<button id="button" onClick="vote3()">Click to Vote!</button>
+		<p>Votes: <a id="clicks3">${clicks3}</a></p>
+		</div>
 	</div>
 	
 	`

@@ -18,9 +18,12 @@ fetch("https://jikan1.p.rapidapi.com/character/1/pictures", {
 	  <div class="card border border-5 border-danger bg-warning" style="width: auto; height: auto">
 		<img src="${pics[0].image_url}" class="card-img-top">
 	  <div class="card-body">
-		<h5 class="card-title">Spike Spiegel  <button id="button">VOTE:</button></h5>
+		<h5 class="card-title">Spike Spiegel</h5>
 	  </div>
-	
+		<div>
+		<button id="button" onClick="vote2()">Click to Vote!</button>
+		<p>Votes: <a id="clicks2">${clicks2}</a></p>
+		</div>
 	</div>
 	
 	`
