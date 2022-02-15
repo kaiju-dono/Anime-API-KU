@@ -3,11 +3,11 @@
 	let tempCharHTML = `
 	<div class="col-4 text-success lead">
 	  <div class="card border border-5 border-danger bg-warning" style="width: 18rem;">
-		<img src="./char_images/agatsumaZenitsu.jpg" class="card-img-top">
+		<img src="./char_images/kamadoNezuko.jpg" class="card-img-top">
 	  <div class="card-body">
-		<h5 class="card-title">Agatsuma Zenitsu  <button>VOTE:</button></h5>
+		<h5 class="card-title">Kamado Nezuko <button>VOTE:</button></h5>
 	  </div>
-	<p>PUT BIO HERE</p>
+	<p>BIO HERE</p>
 	</div>
 	
 	`
