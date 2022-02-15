@@ -14,11 +14,11 @@ fetch("https://jikan1.p.rapidapi.com/character/2/pictures", {
     const pics = data.pictures;
 	console.log(pics)
 	let tempCharHTML = `
-	<div class="col-4 text-success lead">
-	  <div class="card border border-5 border-danger bg-warning" style="width: 18rem;">
+	<div class="col-4 text-success lead" style="width:200px;height:200px">
+	  <div class="card border border-5 border-danger bg-warning" style="width: auto; height: auto">
 		<img src="${pics[1].image_url}" class="card-img-top">
 	  <div class="card-body">
-		<h5 class="card-title">Faye Valentine  <button>VOTE:</button></h5>
+		<h5 class="card-title">Faye Valentine  <button id="button">VOTE:</button></h5>
 	  </div>
 	
 	</div>
