@@ -1,15 +1,19 @@
+const contactsDIV = document.getElementById('char_list');
 
-	const contactsDIV = document.getElementById('char_list');
-	let tempCharHTML = `
-	<div class="col-4 text-success lead" style="width:200px;height:200px">
-	  <div class="card border border-5 border-danger bg-warning" style="width: auto; height: auto">
-		<img src="./char_images/kamadoTanjiro.jpg" class="card-img-top">
-	  <div class="card-body">
-		<h5 class="card-title">Kamado Tanjiro  <button id="button">VOTE:</button></h5>
-	  </div>
-      <p>BIO HERE</p>
-	</div>
-	
-	`
+let counter = 1-1;
+let tempCharHTML = `
+<div class="col-4 text-success lead" style="width:233px;height:200px">
+	<div class="card border border-5 border-danger bg-warning" style="width: auto; height: auto">
+		<img style="width: 200px; height: 252.317px" src="./char_images/kamadoTanjiro.jpg" class="card-img-top">
+	<div class="card-body">
+		<h5 class="card-title">Kamado Tanjiro</h5>
+		</div>
+		<div id="buttonTag">
+		<button id="button" onClick="vote()">Click to VOTE!</button>
+		<p>Votes: <a id="clicks">${clicks}</a></p>
+		</div>
+</div>
 
-	contactsDIV.innerHTML += tempCharHTML;
+`
+
+contactsDIV.innerHTML += tempCharHTML;

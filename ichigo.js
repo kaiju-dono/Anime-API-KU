@@ -18,9 +18,12 @@ fetch("https://jikan1.p.rapidapi.com/character/5/pictures", {
 	  <div class="card border border-5 border-danger bg-warning" style="width: auto; height: auto">
 		<img src="${pics[0].image_url}" class="card-img-top">
 	  <div class="card-body">
-		<h5 class="card-title">Ichigo Kurosaki  <button id="button">VOTE:</button></h5>
+		<h5 class="card-title">Ichigo Kurosaki</h5>
 	  </div>
-	
+		<div>
+		<button id="button" onClick="vote()">Click to Vote!</button>
+		<p>Votes: <a id="clicks">${clicks}</a></p>
+		</div>
 	</div>
 	
 	`
