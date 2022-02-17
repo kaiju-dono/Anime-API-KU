@@ -12,6 +12,8 @@ let tempCharHTML = `
 		<button id="kiritoButton" onClick="vote2()">Click to VOTE!</button>
 		<p>Votes: <a id="clicks2">${clicks2}</a></p>
 		</div>
+		<h3>Kirigaya Kazuto (桐ヶ谷 和人 Kazuto Kirigaya), born as Narusaka Kazuto (鳴坂 和人 Kazuto Narusaka), and known as Kirito (キリト) in «Sword Art Online» (SAO), «ALfheim Online» (ALO), «Gun Gale Online» (GGO), and «Project Alicization», is the protagonist of the main Sword Art Online series.
+		</h3>
 </div>
 
 `
