@@ -10,43 +10,39 @@
 </head>
 <body>
         <!-- NAV BAR HTML -->
-        <ul class="nav nav-tabs">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">AnimeFans 101</a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Home</a>
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li><a class="dropdown-item" href="#">Adventure</a></li>
-                    <li><a class="dropdown-item" href="#">Quotes</a></li>
-                    <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="#">Anime Facts</a></li>
-                  </ul>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Anime</a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Characters</a>
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Bleach</a>
-                      <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="#">Rukia Kuchik</a></li>
-                    <li><a class="dropdown-item" href="#">Orihime Inoue</a></li>
-                    <li><a class="dropdown-item" href="#">Ichigo Kurosaki</a></li>
-                    <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="#">Cowboy Bepop</a>
-                      <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="#">Faye Valentine</a></li>
-                    <li><a class="dropdown-item" href="#">Spike Spiegel</a></li>
-                    <li><a class="dropdown-item" href="#">Jet Black</a></li>
-                  </ul>
-                </li>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="/index.html">AnimeFans 101</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../animeIndex.html">Anime</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Characters</a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="./bleach.html">Bleach</a></li>
+                      <li><a class="dropdown-item" href="./SAO.html">Sword Art Online</a></li>
+                      <li><a class="dropdown-item" href="./kimetsuNoYaiba.html">Kimetsu No Yaiba</a></li>
+                      <li><a class="dropdown-item" href="./cowboyBebop.html">Cowboy Bebop</a></li>
+                      <li><a class="dropdown-item" href="./dbz.html">Dragonball Z</a></li>
+                      
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
               <!-- NAV BAR HTML -->
           
               <!-- MAIN CONTENT -->
-              <div class="container-fluid">
+              <div style="background-color: darkgrey;" class="container-fluid">
                   <h1 class="text-success">Select An Anime To Vote For A Character From That Anime</h1>
           
                   <div id="anime_list" class="row">
