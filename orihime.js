@@ -14,8 +14,8 @@ fetch("https://jikan1.p.rapidapi.com/character/7/pictures", {
     const pics = data.pictures;
 	console.log(pics)
 	let tempCharHTML = `
-	<div class="col-4 text-success lead" style="width:200px;height:200px">
-	  <div class="card border border-5 border-danger bg-warning" style="width: auto; height: auto">
+	<div class="col-4 text-success lead" style="width:250px;height:599px">
+	  <div class="card border border-5 border-danger bg-warning" style="width:auto; height:auto;margin:auto">
 		<img src="${pics[0].image_url}" class="card-img-top">
 	  <div class="card-body">
 		<h5 class="card-title">Orihime Inoue</h5>

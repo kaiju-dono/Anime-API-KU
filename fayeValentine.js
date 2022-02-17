@@ -14,7 +14,7 @@ fetch("https://jikan1.p.rapidapi.com/character/2/pictures", {
     const pics = data.pictures;
 	console.log(pics)
 	let tempCharHTML = `
-	<div class="col-4 text-success lead" style="width:200px;height:200px">
+	<div class="col-4 text-success lead" style="width:250px;height:599px">
 	  <div class="card border border-5 border-danger bg-warning" style="width: auto; height: auto">
 		<img src="${pics[1].image_url}" class="card-img-top">
 	  <div class="card-body">
@@ -24,8 +24,8 @@ fetch("https://jikan1.p.rapidapi.com/character/2/pictures", {
 		<button id="button" onClick="vote()">Click to Vote!</button>
 		<p>Votes: <a id="clicks">${clicks}</a></p>
 		</div>
+		<textarea style="height: 107px;">Faye Valentine is a wanted bounty head and a member of the bounty hunting crew aboard the Bebop.</textarea>
 	</div>
-	<textarea style="height: 107px;">Faye Valentine is a wanted bounty head and a member of the bounty hunting crew aboard the Bebop.</textarea>
 	
 	`
 
