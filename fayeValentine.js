@@ -25,6 +25,7 @@ fetch("https://jikan1.p.rapidapi.com/character/2/pictures", {
 		<p>Votes: <a id="clicks">${clicks}</a></p>
 		</div>
 	</div>
+	<textarea style="height: 107px;">Faye Valentine is a wanted bounty head and a member of the bounty hunting crew aboard the Bebop.</textarea>
 	
 	`
 

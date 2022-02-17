@@ -12,6 +12,7 @@ let tempCharHTML = `
 		<button id="button" onClick="vote4()">Click to VOTE!</button>
 		<p>Votes: <a id="clicks4">${clicks4}</a></p>
 		</div>
+		<textarea style="height: 107px;">Trunks is a Human/Saiyan hybrid, the firstborn child and only son of Vegeta and Bulma and the elder brother of Bulla.</textarea>
 </div>
 
 `

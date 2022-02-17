@@ -24,6 +24,7 @@ fetch("https://jikan1.p.rapidapi.com/character/6/pictures", {
 		<button id="button" onClick="vote3()">Click to Vote!</button>
 		<p>Votes: <a id="clicks3">${clicks3}</a></p>
 		</div>
+		<textarea style="height: 107px;">Rukia Kuchiki is the current captain of the 13th Division. She formerly served as lieutenant of the 13th Division under Captain Jūshirō Ukitake. Rukia is the adoptive sister of Byakuya Kuchiki, a friend of Ichigo Kurosaki, and is married to Renji Abarai.</textarea>
 	</div>
 	
 	`

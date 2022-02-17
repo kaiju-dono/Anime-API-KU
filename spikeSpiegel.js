@@ -24,6 +24,7 @@ fetch("https://jikan1.p.rapidapi.com/character/1/pictures", {
 		<button id="button" onClick="vote2()">Click to Vote!</button>
 		<p>Votes: <a id="clicks2">${clicks2}</a></p>
 		</div>
+		<textarea style="height: 107px;">Spike Spiegel is a former member of the Red Dragon Crime Syndicate, who left by faking his death after falling in love with a woman called Julia.</textarea>
 	</div>
 	
 	`
