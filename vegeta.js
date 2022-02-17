@@ -10,7 +10,7 @@ let tempCharHTML = `
 		</div>
 		<div id="buttonTag">
 		<button id="button" onClick="vote3()">Click to VOTE!</button>
-		<p>Votes: <a id="clicks3">${clicks3}</a></p>
+		<p>Votes: <a id="vegetaClicks">${vegetaClicks}</a></p>
 		</div>
 		<textarea style="height: 107px;">Regal, egotistical, and full of pride, Vegeta was once a ruthless, cold-blooded warrior and outright killer,[8] but later abandons his role in the Frieza Force, instead opting to remain and live on Earth. His character evolves from villain, to anti-hero, then to hero through the course of the series, repeatedly fighting alongside the universe's most powerful warriors in order to protect his new home and surpass Goku in power.</textarea>
 </div>

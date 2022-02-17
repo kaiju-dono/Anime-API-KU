@@ -10,7 +10,7 @@ let tempCharHTML = `
 		</div>
 		<div id="buttonTag">
 		<button id="button" onClick="vote()">Click to VOTE!</button>
-		<p>Votes: <a id="clicks">${clicks}</a></p>
+		<p>Votes: <a id="gokuClicks">${gokuClicks}</a></p>
 		</div>
 		<textarea style="height: 107px;">Son Goku , born Kakarot (カカロット Kakarotto), is the main protagonist of the Dragon Ball series. Goku is a Saiyan male originally sent to destroy Earth as an infant. A head injury at an early age alters his memory, ridding him of his initial destructive nature and allowing him to grow up to become one of Earth's greatest defenders. He constantly strives and trains to be the greatest warrior possible, which has kept the Earth and the universe safe from destruction many times.</textarea>
 </div>
