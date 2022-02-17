@@ -18,31 +18,31 @@ fetch("https://jikan1.p.rapidapi.com/genre/anime/1/1", {
         <div class="col-4 border border-5px">
         <h1 class="text-danger">${anime[27].title}</h1><br>
         <img src="https://cdn.myanimelist.net/images/anime/3/40451.jpg" style="width:200px"> <br>
-        <p class="lead">${anime[27].synopsis}</p><br>
+        <textarea style="width:400px;height:200px" class="lead text-success">${anime[27].synopsis}</textarea><br>
         <a href="">Characters</a>
         </div>
         <div class="col-4 border border-5px">
         <h1 class="text-danger">${anime[3].title}</h1><br>
         <img src="https://cdn.myanimelist.net/images/anime/11/39717.jpg"> <br>
-        <p class="lead">${anime[3].synopsis}</p><br>
+        <textarea style="width:400px;height:200px" class="lead text-success">${anime[3].synopsis}</textarea><br>
         <a href="">Characters</a>
         </div>
         <div class="col-4 border border-5px">
-        <h1 class="text-danger">${anime[7].title}</h1><br>
+        <h1 class="text-danger">${anime[8].title}</h1><br>
         <img src="https://cdn.myanimelist.net/images/anime/1286/99889.jpg"> <br>
-        <p class="lead">${anime[7].synopsis}</p><br>
+        <textarea style="width:400px;height:200px" class="lead text-success">${anime[8].synopsis}</textarea><br>
         <a href="">Characters</a>
         </div>
         <div class="col-4 border border-5px">
         <h1 class="text-danger">${anime[29].title}</h1><br>
         <img src="https://cdn.myanimelist.net/images/anime/4/19644.jpg"> <br>
-        <p class="lead">${anime[29].synopsis}</p><br>
+        <textarea style="width:400px;height:200px" class="lead text-success">${anime[29].synopsis}</textarea><br>
         <a href="">Characters</a>
         </div>
         <div class="col-4 border border-5px">
         <h1 class="text-danger">${anime[61].title}</h1><br>
         <img src="https://cdn.myanimelist.net/images/anime/1607/117271.jpg"> <br>
-        <p class="lead">${anime[61].synopsis}</p><br>
+        <textarea style="width:400px;height:200px" class="lead text-success">${anime[61].synopsis}</textarea><br>
         <a href="">Characters</a>
         </div>
     `
