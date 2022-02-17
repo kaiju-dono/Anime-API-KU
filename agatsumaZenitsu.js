@@ -12,6 +12,7 @@ let tempCharHTML = `
 		<button id="button" onClick="vote4()">Click to VOTE!</button>
 		<p>Votes: <a id="clicks4">${clicks4}</a></p>
 		</div>
+		<textarea style="height: 107px;">Zenitsu Agatsuma is one of the main protagonists of Demon Slayer: Kimetsu no Yaiba and along with Inosuke Hashibira, a travelling companion of Tanjiro Kamado and Nezuko Kamado. He is also a Demon Slayer in the Demon Slayer Corps.</textarea>
 </div>
 
 `

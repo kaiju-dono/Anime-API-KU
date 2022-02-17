@@ -12,6 +12,7 @@ let tempCharHTML = `
 		<button id="eugeoButton" onClick="vote3()">Click to VOTE!</button>
 		<p>Votes: <a id="clicks3">${clicks3}</a></p>
 		</div>
+		<textarea style="height: 107px;"></textarea>
 </div>
 
 `

@@ -12,6 +12,7 @@ let tempCharHTML = `
 		<button id="button" onClick="vote3()">Click to VOTE!</button>
 		<p>Votes: <a id="clicks3">${clicks3}</a></p>
 		</div>
+		<textarea style="height: 107px;">Inosuke Hashibira is one of the main protagonists of Demon Slayer: Kimetsu no Yaiba and along with Zenitsu Agatsuma, a traveling companion of Tanjiro Kamado and Nezuko Kamado. He is also a Demon Slayer in the Demon Slayer Corps.</textarea>
 </div>
 
 `
