@@ -1,6 +1,5 @@
 const contactsDIV = document.getElementById('char_list');
 
-let counter = 1-1;
 let tempCharHTML = `
 <div class="col-4 text-success lead" style="width:250px;height:599px">
 	<div class="card border border-5 border-danger bg-warning" style="width: auto; height: auto">

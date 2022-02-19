@@ -108,4 +108,7 @@ function totalFav() {
 }
 
 
-favDIV.innerHTML = `${overallFav}`;
+favDIV.innerHTML += `${overallFav}`;
+
+
+export {favDIV, bleachCount, bleachFavorite, cowboyCount, cowboyFavorite, dbzCount, dbzFavorite, kimetsuCount, kimetsuFavorite, saoCount, saoFavorite, overallFav, bleachFav, cowboyFav, dbzFav, kimetsuFav, saoFav, totalFav}
