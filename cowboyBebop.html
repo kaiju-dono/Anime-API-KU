@@ -63,20 +63,26 @@
       function vote() {
         fayeClicks += 1;
         document.getElementById("fayeClicks").innerHTML = fayeClicks;
+        removeHandler();
       }
-    </script>
-    <script>
+  
         let spikeClicks = 0;
         function vote2() {
         spikeClicks += 1;
         document.getElementById("spikeClicks").innerHTML = spikeClicks;
+        removeHandler();
       }
-    </script>
-    <script>
+
       let jetClicks = 0;
       function vote3() {
       jetClicks += 1;
       document.getElementById("jetClicks").innerHTML = jetClicks;
+      removeHandler();
+    }
+    function removeHandler() {
+      document.getElementById("fayeButton").disabled = true;
+      document.getElementById("jetButton").disabled = true;
+      document.getElementById("spikeButton").disabled = true;
     }
     </script>
   <script src="favoriteScript.js" type="module"></script>

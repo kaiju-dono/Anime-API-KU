@@ -21,7 +21,7 @@ fetch("https://jikan1.p.rapidapi.com/character/7/pictures", {
 		<h5 class="card-title">Orihime Inoue</h5>
 	  </div>
 		<div>
-		<button id="button" onClick="vote2()">Click to Vote!</button>
+		<button id="orihimeButton" onClick="vote2()">Click to Vote!</button>
 		<p>Votes: <a id="inoueClicks">${inoueClicks}</a></p>
 		</div>
 		<textarea style="height: 107px;">Orihime Inoue is a Human living in Karakura Town. She is a former student of Karakura High School. She is married to Ichigo Kurosaki and has a son named Kazui Kurosaki.</textarea>

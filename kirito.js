@@ -8,7 +8,7 @@ let tempCharHTML = `
 		<h5 class="card-title">Kazuto Kirigaya</h5>
 		</div>
 		<div id="buttonTag">
-		<button id="kiritoButton" onClick="vote2()">Click to VOTE!</button>
+		<button id="kiritoButton" onClick="vote2();this.disabled=true">Click to VOTE!</button>
 		<p>Votes: <a id="kiritoClicks">${kiritoClicks}</a></p>
 		</div>
 		<textarea style="height: 107px;">Kirigaya Kazuto (桐ヶ谷 和人 Kazuto Kirigaya), born as Narusaka Kazuto (鳴坂 和人 Kazuto Narusaka), and known as Kirito (キリト) in «Sword Art Online» (SAO), «ALfheim Online» (ALO), «Gun Gale Online» (GGO), and «Project Alicization», is the protagonist of the main Sword Art Online series.

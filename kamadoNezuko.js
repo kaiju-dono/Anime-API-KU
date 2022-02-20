@@ -8,7 +8,7 @@ let tempCharHTML = `
 		<h5 class="card-title">Kamado Tanjiro</h5>
 		</div>
 		<div id="buttonTag">
-		<button id="button" onClick="vote2()">Click to VOTE!</button>
+		<button id="nezukoButton" onClick="vote2()">Click to VOTE!</button>
 		<p>Votes: <a id="nezukoClicks">${nezukoClicks}</a></p>
 		</div>
 		<textarea style="height: 107px;">Nezuko Kamado is the deuteragonist of Demon Slayer: Kimetsu no Yaiba. She is a demon and the younger sister of Tanjiro Kamado and one of the two remaining members of the Kamado family. Formerly a human, she was attacked and turned into a demon by Muzan Kibutsuji.</textarea>

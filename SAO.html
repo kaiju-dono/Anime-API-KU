@@ -66,21 +66,28 @@
       function vote() {
         asunaClicks += 1;
         document.getElementById("asunaClicks").innerHTML = asunaClicks;
+        removeHandler();
       }
-    </script>
-    <script>
+    
         let kiritoClicks = 0;
         function vote2() {
         kiritoClicks += 1;
         document.getElementById("kiritoClicks").innerHTML = kiritoClicks;
+        removeHandler();
       }
-    </script>
-    <script>
+    
       let eugeoClicks = 0;
       function vote3() {
       eugeoClicks += 1;
       document.getElementById("eugeoClicks").innerHTML = eugeoClicks;
+      removeHandler();
     }
+    function removeHandler() {
+      document.getElementById("asunaButton").disabled = true;
+      document.getElementById("kiritoButton").disabled = true;
+      document.getElementById("eugeoButton").disabled = true;
+    }
+
     </script>
         <script src="favoriteScript.js" type="module"></script>
 </body>

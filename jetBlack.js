@@ -21,7 +21,7 @@ fetch("https://jikan1.p.rapidapi.com/character/3/pictures", {
 		<h5 class="card-title">Jet Black</h5>
 	  </div>
 		<div>
-		<button id="button" onClick="vote3()">Click to Vote!</button>
+		<button id="jetButton" onClick="vote3()">Click to Vote!</button>
 		<p>Votes: <a id="jetClicks">${jetClicks}</a></p>
 		</div>
 		<textarea style="height: 107px;">Jet Black  is an officer of the ISSP and later bounty hunter. He partnered with Fad until losing his arm in the mid-2060s. He then captained the Bebop and led a bounty-hunting crew including Spike Spiegel, Faye Valentine, and Edward.
