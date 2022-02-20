@@ -64,33 +64,28 @@
       function vote() {
         ichigoClicks += 1;
         document.getElementById("ichigoClicks").innerHTML = ichigoClicks;
-        
+        removeHandler();
       }
-      </script>
-    <script>
+
       let inoueClicks = 0;
       function vote2() {
         inoueClicks += 1;
         document.getElementById("inoueClicks").innerHTML = inoueClicks;
-      
+        removeHandler();
       }
-      </script>
-    <script>
+
       let rukiaClicks = 0;
       function vote3() {
         rukiaClicks += 1;
         document.getElementById("rukiaClicks").innerHTML = rukiaClicks;
-        console.log(clicks3);
+        removeHandler();
       }
-      </script>
-      <script>
-        if ((ichigoClicks>inoueClicks)&&(ichigoClicks>rukiaClicks)) {
-          return 
-        } else if ((inoueClicks>ichigoClicks)&&(inoueClicks>rukiaClicks)) {
+      function removeHandler() {
+      document.getElementById("ichigoButton").disabled = true;
+      document.getElementById("orihimeButton").disabled = true;
+      document.getElementById("rukiaButton").disabled = true;
+    }
 
-        } else if ((rukiaClicks>ichigoClicks)&&(rukiaClicks>inoueClicks)) {
-          
-        }
       </script>
 <script src="favoriteScript.js" type="module"></script>
 </body>

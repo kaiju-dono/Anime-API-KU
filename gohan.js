@@ -8,7 +8,7 @@ let tempCharHTML = `
 		<h5 class="card-title">Gohan</h5>
 		</div>
 		<div id="buttonTag">
-		<button id="button" onClick="vote2()">Click to VOTE!</button>
+		<button id="gohanButton" onClick="vote2()">Click to VOTE!</button>
 		<p>Votes: <a id="gohanClicks">${gohanClicks}</a></p>
 		</div>
 		<textarea style="height: 107px;">Son Gohan is a half-breed Saiyan and one of the most prominent characters in the Dragon Ball series. He is the elder son of the series' primary protagonist Goku and his wife Chi-Chi, the eldest nephew of Raditz, the older brother of Goten, the husband of Videl and father to Pan. He is named after Goku's adoptive grandfather, Gohan.</textarea>

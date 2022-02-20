@@ -8,7 +8,7 @@
 			<h5 class="card-title">Asuna Yuuki</h5>
 			</div>
 			<div id="buttonTag">
-			<button id="asunaButton" onClick="vote()">Click to VOTE!</button>
+			<button id="asunaButton" onClick="vote();this.disabled=true">Click to VOTE!</button>
 			<p>Votes: <a id="asunaClicks">${asunaClicks}</a></p>
 			</div>
 			<textarea style="height: 107px;">Asuna (real name Asuna Yuuki) is the main female protagonist of the anime and light novel series, Sword Art Online. Aside from being the second in command of the Knights of the Blood Oath, the strongest guild in Aincrad, she is also the adoptive mother of Yui and the love interest of Kirito.</textarea>

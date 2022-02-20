@@ -21,7 +21,7 @@ fetch("https://jikan1.p.rapidapi.com/character/2/pictures", {
 		<h5 class="card-title">Faye Valentine</h5>
 	  </div>
 		<div>
-		<button id="button" onClick="vote()">Click to Vote!</button>
+		<button id="fayeButton" onClick="vote()">Click to Vote!</button>
 		<p>Votes: <a id="fayeClicks">${fayeClicks}</a></p>
 		</div>
 		<textarea style="height: 107px;">Faye Valentine is a wanted bounty head and a member of the bounty hunting crew aboard the Bebop.</textarea>

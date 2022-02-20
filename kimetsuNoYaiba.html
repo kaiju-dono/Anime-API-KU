@@ -63,27 +63,35 @@
       let tanjiroClicks = 0;
       function vote() {
         tanjiroClicks += 1;
-        document.getElementById("tanjiroClicks").innerHTML = tanjiroClicks;      }
-    </script>
-    <script>
+        document.getElementById("tanjiroClicks").innerHTML = tanjiroClicks;
+        removeHandler();      
+      }
+    
         let nezukoClicks = 0;
         function vote2() {
         nezukoClicks += 1;
         document.getElementById("nezukoClicks").innerHTML = nezukoClicks;
+        removeHandler();
       }
-    </script>
-    <script>
+    
       let inosukeClicks = 0;
       function vote3() {
       inosukeClicks += 1;
       document.getElementById("inosukeClicks").innerHTML = inosukeClicks;
+      removeHandler();
     }
-    </script>
-    <script>
+    
       let zenitsuClicks = 0;
       function vote4() {
       zenitsuClicks += 1;
       document.getElementById("zenitsuClicks").innerHTML = zenitsuClicks;
+      removeHandler();
+    }
+    function removeHandler() {
+      document.getElementById("tanjiroButton").disabled = true;
+      document.getElementById("nezukoButton").disabled = true;
+      document.getElementById("inosukeButton").disabled = true;
+      document.getElementById("zenitsuButton").disabled = true;
     }
     </script>
     <script src="favoriteScript.js" type="module"></script>

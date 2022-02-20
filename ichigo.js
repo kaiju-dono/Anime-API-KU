@@ -21,7 +21,7 @@ fetch("https://jikan1.p.rapidapi.com/character/5/pictures", {
 		<h5 class="card-title">Ichigo Kurosaki</h5>
 	  </div>
 		<div>
-		<button id="button" onClick="vote()">Click to Vote!</button>
+		<button id="ichigoButton" onClick="vote()">Click to Vote!</button>
 		<p>Votes: <a id="ichigoClicks">${ichigoClicks}</a></p>
 		</div>
 		<textarea style="height: 107px;">Ichigo Kurosaki is a Human who is also a Substitute Shinigami. Ichigo is the son of Isshin and Masaki Kurosaki, and older brother of Karin and Yuzu. He is also married to Orihime Inoue and has a son named Kazui Kurosaki.</textarea>
