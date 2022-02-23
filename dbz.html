@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet"> 
     <title>AnimeFans 101</title>
 </head>
-<body style="background-color: #67aee0;">
+<body style="font-family: 'Permanent Marker', cursive;text-shadow: 2px 2px 2px black;background-color: #67aee0;">
   <!-- NAV BAR HTML -->
   <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #90c8f0;">
     <div class="container-fluid">
@@ -37,6 +37,9 @@
               
             </ul>
           </li>
+          <li class="nav-item">
+            <a style="text-shadow: 2px 2px 2px black;color: aqua;font-family: 'Permanent Marker', cursive;" class="nav-link" href="./favorite.html">Current Favorite</a>
+          </li>
         </ul>
       </div>
     </div>
@@ -59,6 +62,7 @@
     <script src="gohan.js" type="module"></script>
     <script src="vegeta.js" type="module"></script>
     <script src="trunks.js" type="module"></script>
+    <script src="favoriteScript.js" type="module"></script>
     <script>	
       let gokuClicks = 0;
       function vote() {
@@ -93,7 +97,7 @@
       document.getElementById("trunksButton").disabled = true;
       document.getElementById("vegetaButton").disabled = true;
     }
+    
     </script>
-        <script src="favoriteScript.js" type="module"></script>
 </body>
 </html>
