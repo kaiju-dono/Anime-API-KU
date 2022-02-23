@@ -1,3 +1,6 @@
+
+
+
 const favDIV = document.getElementById("h1Tag");
 let bleachCount = 0;
 let bleachFavorite = "";
@@ -23,7 +26,7 @@ function bleachFav()  {
     bleachFavorite = "Kuchiki Rukia";
   } else {
     bleachCount = 0;
-    bleachFavorite = "Tie";
+    bleachFavorite = "Tie or Not Enough Votes";
   }
 }
 function cowboyFav()  {
@@ -38,7 +41,7 @@ function cowboyFav()  {
     cowboyFavorite = "Jet Black";
   } else {
     cowboyCount = 0;
-    cowboyFavorite = "Tie";
+    cowboyFavorite = "Tie or Not Enough Votes";
   }
 }
 function dbzFav()  {
@@ -56,7 +59,7 @@ function dbzFav()  {
     dbzFavorite = "Trunks";
   } else {
     dbzCount = 0;
-    dbzFavorite = "Tie";
+    dbzFavorite = "Tie or Not Enough Votes";
 }
 }
 function kimetsuFav()  {
@@ -88,7 +91,7 @@ if ((asunaClicks > kiritoClicks)&&(asunaClicks > eugeoClicks)) {
   saoFavorite = "Eugeo"
 } else {
   saoCount = 0;
-  saoFavorite = "Tie";
+  saoFavorite = "Tie or Not Enough Votes";
 }
 }
 function totalFav() {
@@ -106,9 +109,9 @@ function totalFav() {
     overallFav = "Tie, need more votes!"
   }
 }
-
-
-favDIV.innerHTML += `${overallFav}`;
+saoFavorite = "Kirito Kirigaya";
+overallFav = saoFavorite;
+favDIV.innerHTML = `Favorite Character: ${overallFav}`;
 
 
 export {favDIV, bleachCount, bleachFavorite, cowboyCount, cowboyFavorite, dbzCount, dbzFavorite, kimetsuCount, kimetsuFavorite, saoCount, saoFavorite, overallFav, bleachFav, cowboyFav, dbzFav, kimetsuFav, saoFav, totalFav}
