@@ -10,7 +10,7 @@ const newLi4 = document.createElement("li");
 
 newLi.innerHTML = "Hello Anime Fans!";
 ulTag.appendChild(newLi);
-newLi2.innerHTML = "First, read the plot summary of each anime in our top 5 list";
+newLi2.innerHTML = "First, read the plot summary of each anime in our top 5 list<br> by clicking on the <em>Anime</em> link in the Nav or button at bottom of page";
 ulTag.appendChild(newLi2);
 newLi3.innerHTML = "After you have decided which anime to choose, by picking<br> the story that you find most intrigueing, click on the<br> Characters link below the summary and you will be taken<br> to the voting page"
 ulTag.appendChild(newLi3);
