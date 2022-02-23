@@ -51,7 +51,7 @@ fetch("https://jikan1.p.rapidapi.com/genre/anime/1/1", {
         <h1 class="text-danger">${anime[61].title}</h1><br>
         <div style="position:absolute;top:930px">
         <textarea style="width:340px;height:200px" class="lead text-success">${anime[61].synopsis}</textarea><br>
-        <a style="text-shadow: 2px 2px 2px black;" class="text-warning" href="cowboyBebop.html">Characters</a>
+        <a style="text-shadow: 2px 2px 2px black;" class="text-warning" href="dbz.html">Characters</a>
         </div>
         </div>
     `
