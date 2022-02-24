@@ -112,6 +112,9 @@ function totalFav() {
 saoFavorite = "Kirito Kirigaya";
 overallFav = saoFavorite;
 favDIV.innerHTML = `Favorite Character: ${overallFav}`;
-
+let mainDIV = document.getElementById("mainDIV");
+let favImage = document.createElement("img");
+favImage.src = "./char_images/kirito.jpg";
+mainDIV.appendChild(favImage);
 
 export {favDIV, bleachCount, bleachFavorite, cowboyCount, cowboyFavorite, dbzCount, dbzFavorite, kimetsuCount, kimetsuFavorite, saoCount, saoFavorite, overallFav, bleachFav, cowboyFav, dbzFav, kimetsuFav, saoFav, totalFav}
